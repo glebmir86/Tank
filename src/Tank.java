@@ -69,6 +69,11 @@ public class Tank {
         dir++;
         if (dir == 4) dir = 0;
     }
+    public void flight (int x, int y){
+        x += x;
+        y += y;
+        System.out.println("Полёт успешно прошёл");
+    }
 
     public void goBackward(int i) {
         goForward(-i);
